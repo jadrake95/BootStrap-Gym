@@ -1,0 +1,11 @@
+<svg width="102" height="30" viewBox="0 0 102 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M2.41072 18.9161C2.62451 18.7486 3.11646 18.49 4.01541 18.1919C4.88173 17.9047 6.01425 17.6163 7.41101 17.3348C10.2024 16.7725 13.9468 16.2582 18.5198 15.8252C27.6608 14.9595 39.3793 14.4873 51.4852 14.5003C63.5914 14.5132 75.2228 15.0105 84.2062 15.8953C88.7009 16.338 92.3491 16.8597 95.0335 17.4265C96.3773 17.7103 97.4498 17.9992 98.253 18.2839C99.098 18.5835 99.4961 18.8281 99.6295 18.9497" stroke="black" stroke-width="3" stroke-linecap="round"/>
+<line x1="19.5" y1="28.5" x2="19.5" y2="1.5" stroke="#E72121" stroke-width="3" stroke-linecap="round"/>
+<line x1="14.5" y1="26.5" x2="14.5" y2="4.5" stroke="black" stroke-width="3" stroke-linecap="round"/>
+<line x1="9.5" y1="24.5" x2="9.5" y2="7.5" stroke="#E72121" stroke-width="3" stroke-linecap="round"/>
+<line x1="4.5" y1="22.5" x2="4.5" y2="10.5" stroke="black" stroke-width="3" stroke-linecap="round"/>
+<line x1="1.5" y1="-1.5" x2="28.5" y2="-1.5" transform="matrix(0 -1 -1 0 81 30)" stroke="#E72121" stroke-width="3" stroke-linecap="round"/>
+<line x1="1.5" y1="-1.5" x2="23.5" y2="-1.5" transform="matrix(0 -1 -1 0 86 28)" stroke="black" stroke-width="3" stroke-linecap="round"/>
+<line x1="1.5" y1="-1.5" x2="18.5" y2="-1.5" transform="matrix(0 -1 -1 0 91 26)" stroke="#E72121" stroke-width="3" stroke-linecap="round"/>
+<line x1="1.5" y1="-1.5" x2="13.5" y2="-1.5" transform="matrix(0 -1 -1 0 96 24)" stroke="black" stroke-width="3" stroke-linecap="round"/>
+</svg>

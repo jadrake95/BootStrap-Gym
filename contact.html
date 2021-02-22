@@ -46,7 +46,7 @@
 
     <div id="page-container">
       <div class="container-fluid mx-auto text-center my-3">
-        <h2 class="display-2 font-weight-bold">
+        <h2 class="display-3 font-weight-bold">
           Get In <span class="text-primary">Touch</span>
         </h2>
       </div>
@@ -68,29 +68,25 @@
           <label for="phone">Phone Number</label>
           <input type="number" class="form-control" id="phone" required />
         </div>
+
+
         <div class="form-group" id="contact-type">
           <label for="contact-type" class="d-block">
             Preferred means of contact:
           </label>
-          <div class="form-check form-check-inline">
-            <input
-              class="form-check-input"
-              type="checkbox"
-              id="contact-email"
-              value="contact-email"
-            />
-            <label class="form-check-label" for="contact-email">Email</label>
+
+          <div class="custom-control custom-radio custom-control-inline">
+            <input type="radio" id="phone-contact" name="contact-type" class="custom-control-input" value="phone" readonly >
+            <label class="custom-control-label" for="phone-contact">Phone</label>
           </div>
-          <div class="form-check form-check-inline">
-            <input
-              class="form-check-input"
-              type="checkbox"
-              id="contact-phone"
-              value="contact-phone"
-            />
-            <label class="form-check-label" for="contact-phone">Phone</label>
+          <div class="custom-control custom-radio custom-control-inline">
+            <input type="radio" id="email-contact" name="contact-type" class="custom-control-input" value="email" readonly>
+            <label class="custom-control-label" for="email-contact">Email</label>
           </div>
+
+
         </div>
+
         <div class="form-group">
           <label for="marketing">How did you hear about us?</label>
           <select class="custom-select" id="marketing" required>
@@ -111,8 +107,9 @@
         <button type="submit" class="btn btn-primary btn-block">Submit</button>
       </form>
     </div>
+  </div>
 
-    <footer class="container-fluid p-0">
+    <footer class="container-fluid p-0 ">
       <div
         class="d-flex justify-content-center align-items-center text-center bg-dark text-light p-2"
       >

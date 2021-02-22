@@ -9767,4 +9767,9 @@ h1 {
   position: relative;
   min-height: 100vh;
 }
+
+i {
+  font-size: 3rem;
+  padding: 1rem 0;
+}
 /*# sourceMappingURL=style.css.map */

@@ -101,6 +101,23 @@ i {
   }
 }
 
+.my-arrow {
+  font-size: 2rem;
+  color: #4ba3c3;
+  &:hover {
+    cursor: pointer;
+    animation: none;
+  }
+}
+
+.shadow-pulse {
+  text-shadow: 0px 0px 10px #4ba3c3;
+  -moz-animation: pulse 2s infinite linear;
+  -o-animation: pulse 2s infinite linear;
+  -webkit-animation: pulse 2s infinite linear;
+  animation: pulse 2s infinite linear;
+}
+
 footer a {
   color: $light;
   &:hover {
@@ -108,6 +125,66 @@ footer a {
   }
 }
 
-// .underlined-primary {
-//   text-decoration: underline #ef233c;
+// .fa-pulse {
+//   display: inline-block;
+//   -moz-animation: pulse 2s infinite linear;
+//   -o-animation: pulse 2s infinite linear;
+//   -webkit-animation: pulse 2s infinite linear;
+//   animation: pulse 2s infinite linear;
 // }
+
+@-webkit-keyframes pulse {
+  0% {
+    text-shadow: 0px 0px 10px #4ba3c3;
+  }
+  50% {
+    text-shadow: 0px 0px 10px rgba($color: #4ba3c3, $alpha: 0);
+  }
+  100% {
+    text-shadow: 0px 0px 10px #4ba3c3;
+  }
+}
+@-moz-keyframes pulse {
+  0% {
+    text-shadow: 0px 0px 10px #4ba3c3;
+  }
+  50% {
+    text-shadow: 0px 0px 10px rgba($color: #4ba3c3, $alpha: 0);
+  }
+  100% {
+    text-shadow: 0px 0px 10px #4ba3c3;
+  }
+}
+@-o-keyframes pulse {
+  0% {
+    text-shadow: 0px 0px 10px #4ba3c3;
+  }
+  50% {
+    text-shadow: 0px 0px 10px rgba($color: #4ba3c3, $alpha: 0);
+  }
+  100% {
+    text-shadow: 0px 0px 10px #4ba3c3;
+  }
+}
+@-ms-keyframes pulse {
+  0% {
+    text-shadow: 0px 0px 10px #4ba3c3;
+  }
+  50% {
+    text-shadow: 0px 0px 10px rgba($color: #4ba3c3, $alpha: 0);
+  }
+  100% {
+    text-shadow: 0px 0px 10px #4ba3c3;
+  }
+}
+@keyframes pulse {
+  0% {
+    text-shadow: 0px 0px 10px #4ba3c3;
+  }
+  50% {
+    text-shadow: 0px 0px 10px rgba($color: #4ba3c3, $alpha: 0);
+  }
+  100% {
+    text-shadow: 0px 0px 10px #4ba3c3;
+  }
+}

@@ -8,7 +8,7 @@
     <title>BS Gym | Welcome</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light w-100 fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light w-100 sticky-top">
       <a class="navbar-brand" href="index.html">
         <img
           src="public/images/NEW_LOGO.svg"
@@ -44,73 +44,75 @@
       </div>
     </nav>
 
-    <div class="container-fluid mx-auto text-center mt-5 p-5">
-      <h2 class="display-2 font-weight-bold">
-        Get In <span class="text-primary">Touch</span>
-      </h2>
+    <div id="page-container">
+      <div class="container-fluid mx-auto text-center my-3">
+        <h2 class="display-2 font-weight-bold">
+          Get In <span class="text-primary">Touch</span>
+        </h2>
+      </div>
+
+      <!-- form -->
+      <form
+        class="col-10 offset-1 col-md-8 offset-md-2 col-lg-6 offset-lg-3 needs-validation mb-3"
+        novalidate
+      >
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="name" class="form-control" id="name" required />
+        </div>
+        <div class="form-group">
+          <label for="email">Email Address</label>
+          <input type="email" class="form-control" id="email" required />
+        </div>
+        <div class="form-group">
+          <label for="phone">Phone Number</label>
+          <input type="number" class="form-control" id="phone" required />
+        </div>
+        <div class="form-group" id="contact-type">
+          <label for="contact-type" class="d-block">
+            Preferred means of contact:
+          </label>
+          <div class="form-check form-check-inline">
+            <input
+              class="form-check-input"
+              type="checkbox"
+              id="contact-email"
+              value="contact-email"
+            />
+            <label class="form-check-label" for="contact-email">Email</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input
+              class="form-check-input"
+              type="checkbox"
+              id="contact-phone"
+              value="contact-phone"
+            />
+            <label class="form-check-label" for="contact-phone">Phone</label>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="marketing">How did you hear about us?</label>
+          <select class="custom-select" id="marketing" required>
+            <option value="" selected disabled>Select...</option>
+            <option value="Facebook">Facebook</option>
+            <option value="Instagram">Instagram</option>
+            <option value="Google">Google</option>
+            <option value="Newspaper">Newspaper</option>
+            <option value="Station">Train Station Billboard</option>
+            <option value="Other">Other</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="comments">Comments & Inquiries</label>
+          <textarea class="form-control" id="comments" rows="3"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary btn-block">Submit</button>
+      </form>
     </div>
 
-    <!-- form -->
-    <form
-      class="col-10 offset-1 col-md-8 offset-md-2 col-lg-6 offset-lg-3 needs-validation"
-      novalidate
-    >
-      <div class="form-group">
-        <label for="name">Name</label>
-        <input type="name" class="form-control" id="name" required />
-      </div>
-      <div class="form-group">
-        <label for="email">Email Address</label>
-        <input type="email" class="form-control" id="email" required />
-      </div>
-      <div class="form-group">
-        <label for="phone">Phone Number</label>
-        <input type="number" class="form-control" id="phone" required />
-      </div>
-      <div class="form-group" id="contact-type">
-        <label for="contact-type" class="d-block">
-          Preferred means of contact:
-        </label>
-        <div class="form-check form-check-inline">
-          <input
-            class="form-check-input"
-            type="checkbox"
-            id="contact-email"
-            value="contact-email"
-          />
-          <label class="form-check-label" for="contact-email">Email</label>
-        </div>
-        <div class="form-check form-check-inline">
-          <input
-            class="form-check-input"
-            type="checkbox"
-            id="contact-phone"
-            value="contact-phone"
-          />
-          <label class="form-check-label" for="contact-phone">Phone</label>
-        </div>
-      </div>
-      <div class="form-group">
-        <label for="marketing">How did you hear about us?</label>
-        <select class="custom-select" id="marketing" required>
-          <option value="" selected disabled>Select...</option>
-          <option value="Facebook">Facebook</option>
-          <option value="Instagram">Instagram</option>
-          <option value="Google">Google</option>
-          <option value="Newspaper">Newspaper</option>
-          <option value="Station">Train Station Billboard</option>
-          <option value="Other">Other</option>
-        </select>
-      </div>
-
-      <div class="form-group">
-        <label for="comments">Comments & Inquiries</label>
-        <textarea class="form-control" id="comments" rows="3"></textarea>
-      </div>
-      <button type="submit" class="btn btn-primary btn-block">Submit</button>
-    </form>
-
-    <footer class="container-fluid p-0 mt-5">
+    <footer class="container-fluid p-0">
       <div
         class="d-flex justify-content-center align-items-center text-center bg-dark text-light p-2"
       >

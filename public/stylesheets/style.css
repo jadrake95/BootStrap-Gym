@@ -9749,6 +9749,7 @@ a.text-dark:hover, a.text-dark:focus {
 
 body {
   font-family: "Lato", sans-serif;
+  background-color: #e9ecef;
 }
 
 .hero-bg {
@@ -9757,6 +9758,10 @@ body {
 
 h1 {
   font-family: "Bebas Neue", cursive;
+}
+
+.lg-text {
+  font-size: 2rem;
 }
 
 #homeNav {

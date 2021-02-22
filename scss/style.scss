@@ -2,6 +2,7 @@ $theme-colors: (
   "primary": #ef233c,
   "secondary": #4ba3c3,
 );
+$enable-responsive-font-sizes: true;
 
 @import "../node_modules/bootstrap/scss/bootstrap";
 

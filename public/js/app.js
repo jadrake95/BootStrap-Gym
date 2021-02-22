@@ -1,3 +1,17 @@
+const myArrow = document.querySelector(".my-arrow");
+
+myArrow.addEventListener("click", function () {
+  const welcome = document.querySelector("#welcome");
+  const headerOffset = 66;
+  const elementPosition = welcome.getBoundingClientRect().top;
+  const offsetPosition = elementPosition - headerOffset;
+
+  window.scrollTo({
+    top: offsetPosition,
+    behavior: "smooth",
+  });
+});
+
 window.addEventListener("scroll", function () {
   const navbar = document.querySelector("#homeNav");
   const logo = document.querySelector("#mainLogo");

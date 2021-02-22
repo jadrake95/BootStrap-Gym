@@ -51,6 +51,10 @@ $enable-responsive-font-sizes: true;
   }
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Lato", sans-serif;
   background-color: #e9ecef;

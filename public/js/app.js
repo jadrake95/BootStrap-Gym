@@ -1,4 +1,24 @@
 const myArrow = document.querySelector(".my-arrow");
+const hero = document.querySelector("#hero");
+
+if (window.screen.width < 650) {
+  hero.classList.remove("hero-bg");
+  hero.classList.add("hero-bg-mob");
+} else if (window.screen.width > 651) {
+  hero.classList.remove("hero-bg-mob");
+  hero.classList.add("hero-bg");
+}
+
+window.addEventListener("resize", function () {
+  console.log(window.screen.width);
+  if (window.screen.width < 650) {
+    hero.classList.remove("hero-bg");
+    hero.classList.add("hero-bg-mob");
+  } else if (window.screen.width > 651) {
+    hero.classList.remove("hero-bg-mob");
+    hero.classList.add("hero-bg");
+  }
+});
 
 myArrow.addEventListener("click", function () {
   const welcome = document.querySelector("#welcome");

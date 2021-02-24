@@ -9946,7 +9946,7 @@ body {
   background: linear-gradient(to top right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)), url("https://images.unsplash.com/photo-1550345332-09e3ac987658?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80") no-repeat center center/cover;
 }
 
-h1 {
+#main-title {
   font-family: "Bebas Neue", cursive;
 }
 
@@ -9982,11 +9982,6 @@ i .socials {
   animation: none;
 }
 
-.shadow-pulse {
-  text-shadow: 0px 0px 10px #4ba3c3;
-  animation: pulse 2s infinite linear;
-}
-
 #pricing .card {
   min-width: 18rem;
   min-height: 25rem;
@@ -10011,6 +10006,11 @@ footer a {
 
 footer a:hover {
   color: #ef233c;
+}
+
+.shadow-pulse {
+  text-shadow: 0px 0px 10px #4ba3c3;
+  animation: pulse 2s infinite linear;
 }
 
 @keyframes pulse {

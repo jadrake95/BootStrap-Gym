@@ -1,0 +1,12 @@
+@media only screen and (max-width: 992px) {
+  #pricing {
+    .card {
+      min-width: auto;
+      min-height: auto;
+      &:nth-of-type(2) {
+        min-width: auto;
+        min-height: auto;
+      }
+    }
+  }
+}
